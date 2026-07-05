@@ -11,6 +11,18 @@ A full stack banking web application built with Django REST Framework and React 
 - Admin Panel — freeze/unfreeze user accounts
 - Role-based access control (Admin vs User)
 
+## 📊 Project Metrics
+
+| Attribute | Details |
+|-----------|---------|
+| **Codebase** | ~1,500 lines of code across backend and frontend |
+| **API Endpoints** | 8 REST endpoints covering auth, accounts, transfers, history |
+| **Database Models** | 3 models — CustomUser, BankAccount, Transaction |
+| **Security** | JWT authentication, role-based access control, token expiry handling |
+| **Data Integrity** | `transaction.atomic()` ensures 100% safe fund transfers |
+| **User Roles** | 2 roles — Admin and User with separate permissions |
+| **Frontend Pages** | 6 React pages — Login, Register, Dashboard, Transfer, Transactions, Admin |
+
 ## 🛠️ Tech Stack
 
 **Backend:** Python, Django, Django REST Framework, SimpleJWT, SQLite  
