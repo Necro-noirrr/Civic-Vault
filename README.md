@@ -22,6 +22,7 @@ A full stack banking web application built with Django REST Framework and React 
 | **Data Integrity** | `transaction.atomic()` ensures 100% safe fund transfers |
 | **User Roles** | 2 roles — Admin and User with separate permissions |
 | **Frontend Pages** | 6 React pages — Login, Register, Dashboard, Transfer, Transactions, Admin |
+| **API Testing** | Documented and tested 8 endpoints via Postman |
 
 ## 🛠️ Tech Stack
 
